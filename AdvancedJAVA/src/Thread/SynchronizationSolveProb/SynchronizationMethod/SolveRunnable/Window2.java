@@ -11,7 +11,6 @@ class Window2 implements Runnable{
         }
 
     }
-
     private synchronized void show(){ // lock:this
         if(ticket > 0){
             try {
