@@ -16,11 +16,14 @@ public class YieldThread extends Thread {
             }
         }
     }
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         YieldThread yt1 = new YieldThread("Jason");
         YieldThread yt2 = new YieldThread("TTTTTTTTTT");
         yt1.start();
-//        yt1.join(20000);
+        yt1.sleep(4000);
+        System.out.println("just took a nap");
         yt2.start();
+        yt2.join(3000);
+        System.out.println("Yt2 has join back");
     }
 }
