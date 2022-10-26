@@ -1,6 +1,7 @@
 package Thread.InheritanceCauseProb;
 
 public class WindowTest {
+
     public static void main(String[] args) {
         Window t1 = new Window();
         Window t2 = new Window();
@@ -14,4 +15,6 @@ public class WindowTest {
         t2.start();
         t3.start();
     }
+
+
 }
