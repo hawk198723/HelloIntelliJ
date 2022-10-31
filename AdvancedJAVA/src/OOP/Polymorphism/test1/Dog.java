@@ -1,4 +1,4 @@
-package OOP.Polymorphism;
+package OOP.Polymorphism.test1;
 
 public class Dog extends Animal{
     @Override
@@ -9,5 +9,9 @@ public class Dog extends Animal{
     @Override
     public void shout() {
         System.out.println("Woof! Woof! Woof!");
+    }
+
+    public void doorKeep(){
+        System.out.println("Gate Guarding...");
     }
 }

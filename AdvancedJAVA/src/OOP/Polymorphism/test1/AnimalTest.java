@@ -1,4 +1,4 @@
-package OOP.Polymorphism;
+package OOP.Polymorphism.test1;
 
 public class AnimalTest {
     public static void main(String[] args) {
@@ -14,5 +14,10 @@ public class AnimalTest {
     public void func(Animal animal){
         animal.eat();
         animal.shout();
+
+        if(animal instanceof Dog){
+            Dog d = (Dog) animal;
+            d.doorKeep();
+        }
     }
 }
