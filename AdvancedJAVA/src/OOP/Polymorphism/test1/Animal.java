@@ -1,4 +1,4 @@
-package OOP.Polymorphism;
+package OOP.Polymorphism.test1;
 
 public class Animal {
     public void eat(){
