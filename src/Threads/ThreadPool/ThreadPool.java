@@ -15,8 +15,8 @@ public class ThreadPool {
 //        service1.setKeepAliveTime(5000L,MILLISECONDS);
 
         service.execute(new NumberThread());// fit Runnable
-        service.execute(new NumberThread1());// fit Runnable
-//        service.submit();// fit Callable
+//        service.execute(new NumberThread1());// fit Runnable
+        service.submit(new NumberThread1());// fit Callable
 
         service.shutdown();
     }

@@ -1,4 +1,4 @@
-package Threads;
+package Threads.Runnable;
 
 class RunnableDemo implements Runnable {
     private Thread t;

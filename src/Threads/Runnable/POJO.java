@@ -1,4 +1,4 @@
-package Threads;
+package Threads.Runnable;
 
 public class POJO {
     private int x = 5;

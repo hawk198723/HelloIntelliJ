@@ -1,4 +1,4 @@
-package Threads;
+package Threads.ExtendsThread;
 
 public class YieldThread extends Thread {
     public YieldThread(String name) {

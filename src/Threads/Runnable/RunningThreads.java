@@ -1,4 +1,4 @@
-package Threads;
+package Threads.Runnable;
 
 public class RunningThreads extends Thread {
     public static void main(String[] args) {
