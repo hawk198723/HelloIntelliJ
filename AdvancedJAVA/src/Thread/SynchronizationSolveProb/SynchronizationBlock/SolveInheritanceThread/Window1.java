@@ -5,6 +5,8 @@ public class Window1 extends Thread{
     private static Object obj = new Object();   // if we add static, this prob will be solved.
     @Override
     public void run() {
+
+
         while (true){
 
             // for inheritance we cannot use this all the time, but we could use Window.class, because class is an object as well --> Class clazz = Window.class

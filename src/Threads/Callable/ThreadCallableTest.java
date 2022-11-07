@@ -9,10 +9,10 @@ public class ThreadCallableTest {
 
         FutureTask<Integer> futureTask = new FutureTask<Integer>(numThread);
 
-//        Thread IamThreadObj = new Thread(futureTask);
-//
-//        IamThreadObj.start();
-new Thread(futureTask).start();
+        Thread IamThreadObj = new Thread(futureTask);
+
+        IamThreadObj.start();
+//new Thread(futureTask).start();
 
         try {
             Integer sum = futureTask.get();
