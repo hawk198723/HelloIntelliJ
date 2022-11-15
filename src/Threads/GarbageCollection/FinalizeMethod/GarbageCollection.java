@@ -25,6 +25,6 @@ public class GarbageCollection {
 
     public void finalize(){
         System.out.println("finalize method called");
-        System.out.println(10 / 0);
+//        System.out.println(10 / 0);
     }
 }
