@@ -1,4 +1,4 @@
-package Collections.GeneralConnection.exe1;
+package Collections.GeneralConnection.Collection.exe1;
 
 import org.junit.Test;
 
@@ -94,10 +94,11 @@ public class CollectionTest {
         Collection collection = new ArrayList();
         collection.add(123);
         collection.add(345);
+        collection.add(345);
         collection.add("aaa");
         collection.add(new Person("Jerry", 4));
         collection.add(new String("Tom"));
-
+        System.out.println(collection);
         //euquals
 
         Collection collection1 = new ArrayList();

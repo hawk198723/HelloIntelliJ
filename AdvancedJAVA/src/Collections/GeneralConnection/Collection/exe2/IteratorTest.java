@@ -1,6 +1,6 @@
-package Collections.GeneralConnection.exe2;
+package Collections.GeneralConnection.Collection.exe2;
 
-import Collections.GeneralConnection.exe1.Person;
+import Collections.GeneralConnection.Collection.exe1.Person;
 import org.junit.Test;
 
 import java.util.ArrayList;
