@@ -1,4 +1,4 @@
-package Collections.GeneralConnection.exe3;
+package Collections.GeneralConnection.Collection.exe3;
 
 import org.junit.Test;
 

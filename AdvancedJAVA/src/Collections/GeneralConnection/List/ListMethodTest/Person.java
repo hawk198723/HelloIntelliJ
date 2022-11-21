@@ -1,4 +1,4 @@
-package Collections.GeneralConnection.exe1;
+package Collections.GeneralConnection.List.ListMethodTest;
 
 import java.util.Objects;
 
