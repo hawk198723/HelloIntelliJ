@@ -1,8 +1,8 @@
-package Collections.GeneralConnection.List.ListMethodTest;
+package Collections.GeneralConnection.Set.TreeSet;
 
 import java.util.Objects;
 
-public class Person {
+public class Person implements Comparable{
     private String name;
     private int age;
 
@@ -50,10 +50,29 @@ public class Person {
         return Objects.equals(name, person.name);
     }
 
-//    @Override
-//    public int hashCode() {
-//        int result = name != null ? name.hashCode() : 0;
-//        result = 31 * result + age;
-//        return result;
-//    }
+    @Override
+    public int hashCode() {
+        int result = name != null ? name.hashCode() : 0;
+        result = 31 * result + age;
+        return result;
+    }
+//base on name from min to max, then age from min to max
+    @Override
+    public int compareTo(Object o) {
+        if (o instanceof Person){
+            Person person = (Person) o;
+//            return this.name.compareTo(person.name);
+            int result = this.name.compareTo(person.name);
+            if (result != 0) {
+                return result;
+            }else {
+                return Integer.compare(this.age, person.age);
+            }
+
+        }else {
+            throw new RuntimeException("the data type doesn't match");
+        }
+
+    }
+
 }
