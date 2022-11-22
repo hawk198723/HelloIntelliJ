@@ -1,17 +1,16 @@
-package Collections.GeneralConnection.Set.HashSet.HashSetExe;
+package Collections.GeneralConnection.Set.HashSet.LinkedHashSet;
 
+import Collections.GeneralConnection.Set.HashSet.HashSetExe.Person;
 import org.junit.Test;
 
-import java.util.HashSet;
 import java.util.Iterator;
+import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class SetTest {
-
+public class LinkedHashSetTest {
     @Test
     public void test1(){
-
-        Set set = new HashSet();
+        Set set = new LinkedHashSet();
         set.add("111");
         set.add("AA");
         set.add("BB");
@@ -28,5 +27,4 @@ public class SetTest {
             System.out.println(iterator.next());
         }
     }
-
 }

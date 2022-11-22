@@ -1,4 +1,4 @@
-package Collections.GeneralConnection.List.ListMethodTest;
+package Collections.GeneralConnection.List.ListTest.ListMethodTest;
 
 import org.junit.Test;
 
