@@ -22,4 +22,6 @@ public class HashMapTest {
         map.put(null,12);  // cannot do that
         map.put(null,null);// cannot do that
     }
+
+
 }
