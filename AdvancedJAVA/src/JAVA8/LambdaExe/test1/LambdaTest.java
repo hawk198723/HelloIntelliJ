@@ -1,4 +1,4 @@
-package JAVA8.LambdaExe;
+package JAVA8.LambdaExe.test1;
 
 import org.junit.Test;
 
@@ -16,11 +16,9 @@ public class LambdaTest {
         };
         runnable1.run();
 
-
         Runnable runnable2 = () -> {
             System.out.println("Lambda Test2! ");
         };
-
         runnable2.run();
     }
 
@@ -34,7 +32,6 @@ public class LambdaTest {
         };
         System.out.println(comparator.compare(12, 22));
 
-
         Comparator<Integer> comparator1 = (o1, o2) -> {
             return Integer.compare(o1, o2);
         };
@@ -45,5 +42,10 @@ public class LambdaTest {
 
         Comparator<Integer> comparator3 = Integer :: compare;
         System.out.println(comparator3.compare(42, 92));
+    }
+
+    @Test
+    public void test3(){
+
     }
 }
