@@ -10,6 +10,5 @@ public class StreamAPITest {
         y = x >>> 2;
         System.out.println(y);
     }
-
-
+    
 }

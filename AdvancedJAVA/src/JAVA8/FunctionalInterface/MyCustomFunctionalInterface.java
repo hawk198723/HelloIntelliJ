@@ -18,7 +18,7 @@ public class MyCustomFunctionalInterface {
             }
         });
 
-        happyTime(60, money-> System.out.println("Bought some meal, cost me $" + money));
+        happyTime(12, money-> System.out.println("Bought a meal, cost me $" + money));
     }
 
     public void happyTime(double money, Consumer<Double> consumer){
@@ -51,6 +51,6 @@ public class MyCustomFunctionalInterface {
                 filterList.add(s);
             }
         }
-        return list;
+        return filterList;
     }
 }
