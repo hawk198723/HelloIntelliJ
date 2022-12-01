@@ -43,11 +43,11 @@ public class MyCustomFunctionalInterface {
 
     }
 
-    public List<String> filterString(List<String> list, Predicate<String> predicate){
+    public List<String> filterString(List<String> list, Predicate<String> pre){
         ArrayList<String> filterList = new ArrayList<>();
 
         for (String s: list) {
-            if (predicate.test(s)) {
+            if (pre.test(s)) {
                 filterList.add(s);
             }
         }
