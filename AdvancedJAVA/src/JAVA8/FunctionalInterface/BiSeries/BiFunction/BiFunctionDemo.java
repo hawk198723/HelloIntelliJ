@@ -9,8 +9,10 @@ public class BiFunctionDemo {
 
         BiFunction<String, Integer, Employee> biFunction = (s, integer) -> new Employee(s, integer);
         Employee employee = biFunction.apply("Jason", 101);
+        Employee employee1 = biFunction.apply("Noah", 103);
 
         System.out.println(employee.toString());
+        System.out.println(employee1.toString());
     }
 
 
