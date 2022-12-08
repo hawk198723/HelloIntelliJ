@@ -28,6 +28,8 @@ public class ConstructorRef {
         String[] arr2 = func2.apply(10);
         System.out.println(Arrays.toString(arr2));
 
+
+
     }
 
 }

@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class StreamAPITest2 {
-    public static void main(String[] args) {
+    public void main(String[] args) {
         ArrayList<Integer> arrayList = new ArrayList<>();
         arrayList.add(2);
         arrayList.add(4);
@@ -35,18 +35,32 @@ public class StreamAPITest2 {
 
         System.out.println("#############################################################");
 
-        arrayList.stream().
-                filter(n -> n % 2 == 1).
-                map(n->n*2).
-                sorted().
-                forEach(System.out::println);
+        System.out.println(arrayList.stream().
+//                filter(n -> n % 2 == 1).
+//                map(n -> n * 2).
+                sorted().findAny());
+//                findFirst());
+//                forEach(System.out::println);
 
-        for (int i = 0; i < 9; i++) {
-            for (int j = 0; j <=i; j++) {
-                System.out.print("*");
-            }
-            System.out.println(" ");
-        }
+       arrayList.stream().
+                filter(n -> n % 2 == 1).
+//                map(n -> n * 2).
+        sorted().forEach(System.out::println);
+//        for (int i = 0; i < 9; i++) {
+//            for (int j = 0; j <=i; j++) {
+//                System.out.print("*");
+//            }
+//            System.out.println(" ");
+//
+//            List<String> strings = Arrays.asList("this", "is", "a", "list", "of", "strings");
+//            List<String> filteredStrings = strings.stream()
+//                    .filter(s -> s.length() > 2)
+//                    .map(String::toUpperCase)
+//                    .collect(Collectors.toList());
+//            filteredStrings.forEach(s -> System.out.println(s));
+
     }
+
+
 
 }
