@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AdvancedJAVA/AdvancedJAVA.iml" filepath="$PROJECT_DIR$/AdvancedJAVA/AdvancedJAVA.iml" />
       <module fileurl="file://$PROJECT_DIR$/HelloIntelliJ.iml" filepath="$PROJECT_DIR$/HelloIntelliJ.iml" />
+      <module fileurl="file://$PROJECT_DIR$/WebService_Service_Port/WebService_Service_Port.iml" filepath="$PROJECT_DIR$/WebService_Service_Port/WebService_Service_Port.iml" />
     </modules>
   </component>
 </project>
