@@ -6,5 +6,12 @@ public class Generic01 {
         stringPerson.setS("walala");
         stringPerson.getS();
         stringPerson.show();
+
+        PersonInteger<Integer> integerPersonInteger = new PersonInteger<>(33);
+        integerPersonInteger.showType();
+
+        PersonInteger<Object> objectPersonInteger = new PersonInteger<Object>(new String[]{"dfdf", "dfdf"});
+        objectPersonInteger.setI(new String[]{"hahah", "dfdf"});
+        objectPersonInteger.getI();
     }
 }
